@@ -12,6 +12,7 @@ from .keep_selected_data_fields import KeepSelectedDataFields
 from .node_degrees import NodeDegrees
 from .node_features_to_float import NodeFeaturesToFloat
 from .one_hot_degree_features import OneHotDegreeFeatures
+from .precompute_khop_features import PrecomputeKHopFeatures
 
 DATA_MANIPULATIONS = {
     "Identity": IdentityTransform,
@@ -24,6 +25,7 @@ DATA_MANIPULATIONS = {
     "CalculateSimplicialCurvature": CalculateSimplicialCurvature,
     "KeepOnlyConnectedComponent": KeepOnlyConnectedComponent,
     "KeepSelectedDataFields": KeepSelectedDataFields,
+    "PrecomputeKHopFeatures": PrecomputeKHopFeatures,
 }
 
 __all__ = [
@@ -37,5 +39,6 @@ __all__ = [
     "CalculateSimplicialCurvature",
     "OneHotDegreeFeatures",
     "KeepSelectedDataFields",
+    "PrecomputeKHopFeatures",
     "DATA_MANIPULATIONS",
 ]
