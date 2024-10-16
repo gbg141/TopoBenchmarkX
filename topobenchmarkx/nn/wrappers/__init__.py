@@ -10,6 +10,7 @@ from topobenchmarkx.nn.wrappers.cell import (
 from topobenchmarkx.nn.wrappers.graph import GNNWrapper
 from topobenchmarkx.nn.wrappers.hypergraph import HypergraphWrapper
 from topobenchmarkx.nn.wrappers.simplicial import (
+    SANNWrapper,
     SANWrapper,
     SCCNNWrapper,
     SCCNWrapper,
@@ -28,6 +29,7 @@ __all__ = [
     "GNNWrapper",
     "HypergraphWrapper",
     "SANWrapper",
+    "SANNWrapper",
     "SCNWrapper",
     "SCCNNWrapper",
     "SCCNWrapper",
